@@ -30,7 +30,6 @@ p {
   display: flex;
   justify-content: center;
   background-color: #1F2937;
-  color: #F9FAF8;
 }
 
 .left-links {
@@ -46,9 +45,17 @@ p {
   flex-direction: column;
 }
 
+.banner {
+  background-color: #1F2937;
+}
+
 .content {
   /* placeholder height */
   height: 500px;
+}
+
+.quote {
+  background-color: #E5E7EB;
 }
 
 .footer {
