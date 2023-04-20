@@ -7,6 +7,10 @@ html, body {
   justify-content: space-between;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -33,22 +37,42 @@ li {
   justify-content: center;
   align-items: center;
   background-color: #1F2937;
-
+  padding: 16px;
 }
-
 .left-links {
   margin-right: auto;
 }
 .right-links {
   margin-left: auto;
   align-items: center;
-  gap: 10px;
+  gap: 24px;
+}
+.right-links li {
+  flex: auto;
+}
+
+h1 {
+  color: #F9FAF8;
+}
+.hero-main {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary,
+.link {
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .container {
   flex: auto;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .banner {
