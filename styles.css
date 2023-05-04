@@ -95,3 +95,10 @@ h1 {
 .footer {
   flex-shrink: 0;
 }
+
+.img-box {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #3882F6;
+  border-radius: 25%;
+}
