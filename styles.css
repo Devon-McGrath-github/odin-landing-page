@@ -43,12 +43,10 @@ li {
   margin-right: auto;
 }
 .right-links {
+  display: flex;
   margin-left: auto;
   align-items: center;
   gap: 24px;
-}
-.right-links li {
-  flex: auto;
 }
 
 h1 {
@@ -69,8 +67,6 @@ h1 {
   flex: auto;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  max-width: 960px;
 }
 
 .banner {
@@ -78,16 +74,14 @@ h1 {
   display: flex;
 }
 
-/* potential solution to allow full width content from within
-  limited width wrapper (allowing full width background color) */
-/* .full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-} */
+.header-img {
+  height: 300px;
+  width: 600px;
+}
+
+.item {
+  flex: 1;
+}
 
 .content {
   /* placeholder height */
