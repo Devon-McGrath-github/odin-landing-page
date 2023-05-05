@@ -49,9 +49,10 @@ li {
   gap: 24px;
 }
 
-h1 {
+h1, h2, h3, h4 {
   color: #F9FAF8;
 }
+
 .header-main {
   font-size: 48px;
   font-weight: 900;
@@ -72,6 +73,7 @@ h1 {
 .banner {
   background-color: #1F2937;
   display: flex;
+  padding: 100px 50px;
 }
 
 .header-img {
@@ -122,11 +124,16 @@ button {
   border-radius: 10%;
 }
 
-.quote-content {
-  background-color: #E5E7EB;
-}
-
 .quote {
+  background-color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.quote-wrapper {
+  max-width: 800px;
+}
+.quote-text {
   color: #1F2937;
   font-size: 36px;
   font-weight: 300;
@@ -139,6 +146,12 @@ button {
   font-weight: bold;
 }
 
+.signUpForm {
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 50px 80px;
+}
+
 .footer {
   flex-shrink: 0;
   text-align: center;
@@ -146,3 +159,4 @@ button {
   color: #F9FAF8;
   padding: 30px 0;
 }
+
