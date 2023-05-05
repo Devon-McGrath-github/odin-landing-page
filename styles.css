@@ -79,6 +79,15 @@ h1 {
   width: 600px;
 }
 
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 30px;
+  font-size: 18px;
+}
+
 .item {
   flex: 1;
 }
