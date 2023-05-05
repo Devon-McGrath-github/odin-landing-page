@@ -150,6 +150,15 @@ button {
   background-color: #3882F6;
   border-radius: 10px;
   padding: 50px 80px;
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.signUpText {
+  flex: 2 1 auto;
+}
+.signUp {
+  border:  3px solid #F9FAF8;
 }
 
 .footer {
